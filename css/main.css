@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  margin: 0;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #dcd4cd;
+}
+
+h1 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color:  #512200;
+}
+
+div {
+  font-size: .875rem;
+  color: #512200
+}
+
+span {
+font-size: .875rem;
+color: #512200
+}
+p
+ {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  color: #512200;
+}
+
+.link-card {
+  font-size: 1.125rem;
+  color: #fff;
+  border-width: 3px;
+  background-color: #785439;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: Dosis, sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
