@@ -3,11 +3,15 @@ html {
   font: normal 100%/1.5 sans-serif;
   margin: 0;
   background-color: #f0eee8;
-  padding: .4rem;
+  padding: .75rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card:hover {
+color: #9a816d;
 }
 
 body {
@@ -16,35 +20,61 @@ body {
   padding: .75rem;
   border-color: #9a816d;
   border-radius: 8px;
+  margin: 0;
 }
 
 h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
   color: #512200;
+  margin: 0;
+}
+
+hr {
+  border-color: #cabdb2;
 }
 
 div {
   font-size: .875rem;
   color: #512200;
+  text-align: center;
 }
 
 dl {
   font-size: .875rem;
   color: #512200;
+  border-bottom: 2px #9a816d;
+  border-top: 2px #9a816d;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  display: block;
+  padding: 1rem;
 }
 
 p {
   font-family: Georgia, serif;
   font-size: 1rem;
   color: #512200;
+  margin: 1rem;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 dd {
   font-style: italic;
+  margin-left: 100px;
+  font-family: Georgia, sans-serif;
 }
 
-.link-card {
+dt {
+  float: left;
+  width: 100px;
+  font-family: Georgia, sans-serif;
+}
+
+.btn {
   font-size: 1.125rem;
   color: #fff;
   border-width: 3px;
@@ -53,6 +83,12 @@ dd {
   padding: 1rem;
   font-family: Dosis, sans-serif;
   font-style: normal;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  color: #512200;
 }
 
 a {
