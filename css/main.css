@@ -24,6 +24,7 @@ body {
   background-color: #dcd4cd;
   border-style: solid;
   padding: .75rem;
+  padding-top: .4rem;
   border-color: #9a816d;
   border-radius: 8px;
   margin: 0;
@@ -57,6 +58,8 @@ dl {
   border-right: none;
   display: block;
   padding: .75rem;
+  padding-left: .5rem;
+  padding-top: 1rem;
 }
 
 p {
@@ -64,6 +67,7 @@ p {
   font-size: 1rem;
   color: #512200;
   margin: 1rem;
+  margin-top: .6rem;
   text-align: left;
   margin-left: 0;
   margin-right: 0;
@@ -71,13 +75,15 @@ p {
 
 dd {
   font-style: italic;
-  margin-left: 100px;
+  clear: right;
+  margin-left: 1rem;
   font-family: Georgia, sans-serif;
 }
 
 dt {
   float: left;
-  width: 100px;
+  clear: left;
+  width: 115px;
   font-family: Georgia, sans-serif;
 }
 
